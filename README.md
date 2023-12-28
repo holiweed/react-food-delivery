@@ -8,54 +8,53 @@
 ![image](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![image](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
 
-  <p>Food delivery application based on the concept of uber eats and rappi. In which you can register as a customer, owner or delivery person and depending on your profile you can register your restaurant for the sale of food, help deliver orders and order what you like the most.</p>
+<p>Aplicación de entrega de comida a domicilio basada en el concepto de uber eats y rappi. En el que podrás registrarte como cliente, propietario o repartidor y dependiendo de tu perfil podrás dar de alta tu restaurante para la venta de comida, ayudar a entregar pedidos y pedir lo que más te guste.</p>
 </div>
 
-### Preview
+### Vista previa
 
 ![](./.readme-static/app.jpeg)
 
-## Features
+## Características
 
-- Notifications when:
-  - there is an order
-  - the order has been taken, cooked and delivered
-- Multiple role management
-- Email verification upon registration
-- User location for food delivery
-- Trace routes using mapbox
-- Restaurants CRUD, reports and statistics
-- Paypal payments to promote a restaurant
+- Notificaciones cuando:
+  - Hay una orden
+  - El pedido ha sido tomado, cocinado y entregado
+- Gestión de múltiples roles
+- Verificación por correo electrónico al registrarse
+- Ubicación del usuario para la entrega de comida
+- Trazar rutas usando mapbox
+- CRUD de restaurantes, informes y estadísticas
+- Pagos de PayPal para promocionar un restaurante
 
-## Installation
+## Instalación
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and
-[Node.js](https://nodejs.org/en/download/) installed on your computer. _Optional_ you can install
+Para clonar y ejecutar esta aplicación, necesitará [Git](https://git-scm.com) y
+[Node.js](https://nodejs.org/en/download/) instalado en su computadora. _Opcional_ que puedes instalar
 [Yarn](https://yarnpkg.com/getting-started/install).
 
-From your command line:
-
+Desde la línea de comandos:
 ```bash
-# Clone this repository
-$ git clone https://github.com/DavidBarcenas/react-food-delivery.git
+  # Clonar este repositorio
+$ git clone https://github.com/holiweed/react-food-delivery
 
-# Go into the repository
+# Abrir el Repositorio
 $ cd react-food-delivery
 
-# Install dependencies
+# Instalar dependencias
 $ yarn install
 
-# Run the app
+# Iniciar la app
 $ yarn run start
 ```
 
-**Note: This project has a backend made with nest.js, which you can configure to handle data
-persistence, authentication, mailing, notifications, and more. The repository can be found at the
-following link: [food-delivery-backend](https://github.com/DavidBarcenas/food-delivery-backend).**
+**Nota: Este proyecto tiene un backend hecho con nest.js, que puedes configurar para manejar datos
+persistencia, autenticación, correo, notificaciones y más. El repositorio se puede encontrar en el
+Siguiente enlace [food-delivery-backend](https://github.com/holiweed/food-delivery-backend).**
 
-## Deployment
+## Implementación
 
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Agrupa correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 
 ```bash
 $ yarn run build
@@ -64,23 +63,22 @@ $ yarn run build
 ## Tests
 
 ```bash
-# Run unit tests
+# Iniciar test
 $ yarn run test
 
-# View project test percentage
+# ver porcentaje del test
 $ yarn run test:coverage
 
 # e2e tests
 $ yarn run cypress open
 ```
 
-## Dependencies
+## Dependencias
 
-The [mapbox-gl](https://docs.mapbox.com/mapbox-gl-js/api/) library is used to create maps. It is
-necessary to have a [mapbox account](https://account.mapbox.com/) to be able to generate the token
-that we need for said library.
+ [mapbox-gl](https://docs.mapbox.com/mapbox-gl-js/api/) se utiliza para crear mapas. Lo es
+necesario tener un [mapbox account](https://account.mapbox.com/) para poder generar el token
+que necesitamos para dicha biblioteca.
 
-## License
+## Licencia
 
-Released under the [MIT licensed](LICENSE).\
-Feel free to fork this project and improve it. Give a ⭐️ if you like this project!
+Siéntase libre de bifurcar este proyecto y mejorarlo.¡Regala un ⭐️ si te gusta este proyecto!
